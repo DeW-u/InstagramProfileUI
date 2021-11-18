@@ -444,7 +444,7 @@ fun PostTabView(
     ) {
         imageWithTexts.forEachIndexed { index, item ->
             Tab(
-                selected = selectedTabIndex == 0,
+                selected = selectedTabIndex == index,
                 selectedContentColor = Color.Black,
                 unselectedContentColor = inactiveColor,
                 onClick = {
